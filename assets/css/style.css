@@ -1,9 +1,16 @@
+header{
+    background-color: dimgray;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 3px;
+}
 body {
     margin: 0px;
 }
 
 nav {
-    background-color: blueviolet;
+    background-color: dimgray;
     text-align: center;
     padding: 20px;
 }
@@ -11,10 +18,11 @@ nav {
 a {
     text-decoration: none;
     padding: 10px;
-    border-radius: 20px;
-    background-color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(240, 248, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
 }
 
 a:hover {
-    background-color: antiquewhite;
+    background-color: rgba(240, 248, 255, 0.736);
 }
