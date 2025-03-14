@@ -9,3 +9,17 @@ body {
     margin: 0px;
     background-color: rgb(170, 182, 182);
 }
+
+a {
+    width: 5%;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 30px 0px 30px 0px;
+    background-color: rgb(240, 248, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
+}
+
+a:hover {
+    background-color: rgba(240, 248, 255, 0.736);
+}
